@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@100&display=swap');
+
+.body-card{
+    margin-top: 5%;
+    width: 20rem;
+    height: 25.5rem;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 5px 4px 5px #051937;
+    background-color: #fff;
+    font-family: 'Arimo', sans-serif;
+}
+.title{
+    margin: 10px 0 10px;
+}
+
+.img-card{
+    /* margin-top: 30px; */
+    padding-top: 0.1px;
+    border-radius: 10px;
+    /* background-color: #ffffff; */
+    /* box-shadow: inset 4px 5px 0px 0px #051937; */
+    height: 12.5rem;
+    background-color: transparent;
+
+}
+.photo{
+    /* margin-left: 5px; */
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+    /* border-radius: 9px; */
+    /* object-fit: contain; */
+    z-index: 1;
+    /* border: 1px solid; */
+    /* box-shadow: -5px -5px 0px 0px #051937; */
+    overflow: hidden;
+    position: relative;
+    /* background-color: transparent; */
+}
+.contador{
+    padding: 0.5rem;
+    text-align: left;
+}
+.buttons{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    gap: 0px;
+}
+.btn{
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #051937;
+}
